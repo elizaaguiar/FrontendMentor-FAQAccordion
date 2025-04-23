@@ -2,23 +2,58 @@
 <html lang="pt-br" class="light">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
-    rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
-    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>devlinks</title>
-  <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body class="bg-[#f9eeff] h-screen ">
-  <div class="w-screen h-screen flex justify-center relative items-start p-8"><img class="w-screen h-[35vh] object-cover"
+  <div class="w-screen h-screen justify-center relative items-start"><img class="w-screen h-[35vh] object-cover"
       src="./faq-accordion-main/assets/images/background-pattern-desktop.svg" alt="">
-    <div class="bg-white w-[65vh] h-[60vh] rounded-sm top-36 absolute shadow-xl"></div>
+    <div
+      class="bg-white rounded-[2vw] sm:rounded-[1vw] shadow-xl w-[90%] sm:w-[65vh] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-6 sm:p-9">
+      <p class="flex text-[2rem] gap-[1vw] sm:text-[3.75rem] text-[#321238]"><img
+          src="./faq-accordion-main/assets/images/icon-star.svg" alt="">FAQs
+      </p>
+      <div class="flex">
+        <h1 class="text-[#321238] mt-[2vh] mb-[1vh] text-sm sm:text-lg">What is Frontend Mentor and how can it
+          help me?</h1>
+        <img class="ml-auto" src="./faq-accordion-main/assets/images/icon-minus.svg" alt="">
+      </div>
+
+      <div>
+        <h2 class="text-[#867a87] mt-[1vh] mb-[2vh] text-left text-sm sm:text-base mt-[1vh] mb-[1vh] sm:mt-[2vh] sm:mb-[2vw]">Frontend Mentor offers realistic
+          coding challenges to
+          help developers improve their frontend coding skills
+          with projects in HTML, CSS and JavaScript. It's suitable for all levels and ideal for portfolio building.</h2>
+      </div>
+      <!-- buttons -->
+      <div class="flex items-center justify-between mt-[1vh] mb-[1vh] sm:mt-[1vh] sm:mb-[2vh] text-[#321238] text-lg border-t-2 pt-3 sm:pt-5">
+        <button class="text-[#321238] text-sm sm:text-lg "> Is Frontend Mentor
+          free?</button>
+        <img class="ml-auto" src="./faq-accordion-main/assets/images/icon-plus.svg" alt="">
+
+      </div>
+
+      <div class="flex justify-start mt-[1vh] mb-[1vh] sm:mt-[1vh] sm:mb-[2vh] text-[#321238] text-lg border-t-2 pt-3 sm:pt-5">
+        <button class="text-[#321238] text-sm sm:text-lg text-left"> Can I use Frontend Mentor
+          projects in my portfolio? </button>
+        <img class="ml-auto" src="./faq-accordion-main/assets/images/icon-plus.svg" alt="">
+      </div>
+
+      <div class="flex  text-[#321238] text-lg mt-[1vh] mb-[1vh] sm:mt-[1vh] sm:mb-[2vh] border-t-2 pt-3 sm:pt-5">
+        <button class="text-[#321238] text-sm sm:text-lg text-left"> How can I get
+          help if I'm stuck on a challenge?</button>
+        <img class="ml-auto" src="./faq-accordion-main/assets/images/icon-plus.svg" alt="">
+
+      </div>
+    </div>
+  </div>
   </div>
 </body>
+
 </html>

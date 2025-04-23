@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'MinhaFonteRegular' ;
+    src: url(./faq-accordion-main/assets/fonts/static/WorkSans-Regular.ttf);
+} 
+@font-face {
+    font-family: 'MinhaFonteBold' ;
+    src: url(./faq-accordion-main/assets/fonts/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'MinhaFonteSemiBold' ;
+    src: url(./faq-accordion-main/assets/fonts/static/WorkSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'MinhaFonteItalic' ;
+    src: url(./faq-accordion-main/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
+
+}
+@font-face {
+    font-family: 'MinhaFonte' ;
+    src: url(./faq-accordion-main/assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+p {
+    font-family: 'MinhaFonteBold';
+}
+h1 {
+    font-family: 'MinhaFonteSemiBold';
+}
+button {
+    font-family: 'MinhaFonteSemiBold'!important;
+}
+h2 {
+    font-family: 'MinhaFonte';
+}
+button:hover {
+    color: #ac2dde;
+}
+
